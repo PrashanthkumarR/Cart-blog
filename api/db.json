@@ -1,0 +1,31 @@
+{
+    "categories": [
+        {
+            "type": "#sandals",
+            "products": [
+               {"type":"#sandals", "name":"flatshoes" , "count":16},
+               {"type":"#sandals", "name":"heels" ,"count":10} ,
+               {"type":"#sandals", "name":"flipflops" , "count":12} ,
+               {"type":"#sandals", "name": "crocs", "count":5}
+            ]
+        },
+        {
+            "type": "#shoes",
+            "products": [
+               { "type":"#shoes", "name":"redshoes" , "count":16},
+               { "type":"#shoes", "name":"sportshoes" , "count":12} ,
+               { "type":"#shoes", "name":"brownshoes" , "count":14} ,
+               { "type":"#shoes", "name": "blueshoes" , "count":10}
+            ]
+        },
+        {
+            "type": "#Tshirts",
+            "products": [
+               {"type":"#Tshirts", "name":"whitet-shirts" , "count":16},
+               {"type":"#Tshirts", "name":"red-tshirts" , "count":12} ,
+               {"type":"#Tshirts", "name":"green-tshirts" , "count":14} ,
+               {"type":"#Tshirts", "name": "black-tshirts" , "count":10}
+            ]
+        }
+    ]
+}

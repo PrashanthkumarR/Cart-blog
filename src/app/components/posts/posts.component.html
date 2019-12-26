@@ -1,0 +1,186 @@
+<app-tag-input></app-tag-input>
+<div class="word-wrapper">
+  <div class="row header">
+    <div class="col-6">
+      <div class="post-info"> <strong class="likerange">200K</strong> <br>
+        <p>Number of people talking <br>
+          about #fashion #shoes
+        </p>
+      </div>
+
+
+    </div>
+    <div class="col-6">
+      <div class="post-info"> <strong class="likerange">20K</strong><br>
+        <p>Number of kofluence <br> influencers
+          talking about <br> #fashion #shoes
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row p-3">
+  <div class="col-6 which-post">
+    <h2 [ngStyle]=" active == 'top' && {'border-bottom': '5px solid orange'}" (click)="postToggle('top')">Top Posts</h2>
+  </div>
+  <div class="col-6 which-post">
+    <h2 [ngStyle]=" active == 'latest' && {'border-bottom': '5px solid orange'}" (click)="postToggle('latest')"> Latest
+      Posts</h2>
+  </div>
+</div>
+<section>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/post1.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 10,000
+        </h2>
+        <h2 class="likes"><i class="fa fa-heart" aria-hidden="true"></i> 10,000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="../../../assets/images/post2.png">
+    <div class="image">
+      <img src="../../../assets/images/post2.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 3000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 1500
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a>
+    <div class="image">
+      <img src="../../../assets/images/post3.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 12000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 1000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a>
+    <div class="image">
+      <img src="../../../assets/images/post4.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a>
+    <div class="image">
+      <img src="../../../assets/images/posts5.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/posts6.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 13,000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 10,000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/posts7.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 23,000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,000
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/posts8.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 31,000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,002
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/posts9.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 33,000
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 1100
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/posts10.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30,202
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,001
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="../../../assets/images/posts11.png">
+    <div class="image">
+      <img src="../../../assets/images/posts11.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 34,506
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,060
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/post12.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30,120
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,220
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/post13.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30,220
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,220
+        </h2>
+      </div>
+    </div>
+  </a>
+  <a href="">
+    <div class="image">
+      <img src="../../../assets/images/post14.png" alt="">
+      <div>
+        <h2 class="seen"><i class="fa fa-eye" aria-hidden="true"></i> 30,440
+        </h2>
+        <h2 class="likes mb-1"><i class="fa fa-heart" aria-hidden="true"></i> 15,400
+        </h2>
+      </div>
+    </div>
+  </a>
+</section>

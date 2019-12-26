@@ -1,0 +1,21 @@
+<div class="tags well">
+
+    <form id="skills">
+        <div class="bs-example wd100">
+            <span class="fa fa-search form-control-feedback search-icon"></span>
+            <tag-input [ngModelOptions]="{standalone: true}" [(ngModel)]="seletedItems" (onAdd)="onAdded($event)"
+            (onRemove)="onItemRemoved($event)" >
+                <tag-input-dropdown [autocompleteItems]="productArray" [showDropdownIfEmpty]="true"
+                    [dynamicUpdate]="false">
+                </tag-input-dropdown>
+            </tag-input>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <button class="tagbadge-class" *ngFor="let div of productTagListArray" (click)="div.counter = div.counter + 1" type="button" class="btn btn-primary">
+       <span>{{'#'}}{{ div.name }} </span> <br>
+        <span class="badge badge-light badge-pill">{{ div.count}}{{'k'}}{{' '}}{{'posts'}}</span>
+    </button>
+</div>

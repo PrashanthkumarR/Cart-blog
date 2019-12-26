@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles-variables";
+$fa-font-path: "~font-awesome/fonts/";
+@import "~font-awesome/scss/font-awesome";
+
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+tag {
+  height: auto !important;
+}
+delete-icon {
+  span {
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+  }
+}
+.tag__text {
+  padding: 3px 10px !important;
+}
+#skills {
+  input,
+  .ng2-tag-input {
+    background: #cccccc00 !important;
+    border-bottom: none !important;
+    @include smallDevices(767px, 320px) {
+      padding-top: 10px;
+    }
+  }
+  .tag-wrapper {
+    background: #ffa500d6;
+    border-radius: 15px;
+    padding: 0 10px 0 20px;
+  }
+}
+
+tag-input-form {
+  max-width: 70px;
+}

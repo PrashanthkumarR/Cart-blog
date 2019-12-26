@@ -1,0 +1,38 @@
+.tags {
+  border-radius: 30px;
+  background: #cccccc4a;
+  padding: 0 10px;
+  margin: 10px;
+  .search-icon {
+    float: left;
+    padding: 10px 10px 15px 10px;
+    z-index: 1000;
+  }
+  #skills {
+    input,
+    .ng2-tag-input {
+      background: #cccccc00 !important;
+      border-bottom:none !important;
+    }
+  }
+}
+
+.container{
+  display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+
+    button {
+      width: 23%;
+      border: none;
+      background: #feaf37;
+      border-radius: 10px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+    span{
+    font-family: serif;
+    font-size: 15px;
+    }
+}
