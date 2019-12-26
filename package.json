@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "api": "json-server api/db.json --routes api/routes.json -p 8000",
-    "postinstall": "ng build --aot"
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
