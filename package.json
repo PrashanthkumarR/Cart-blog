@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -42,6 +42,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~13.1.0",
     "codelyzer": "^5.2.1",
+    "dotenv": "^8.2.0",
     "font-awesome": "^4.7.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
