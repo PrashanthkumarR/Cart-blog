@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ProductService {
-  url: string = 'http://localhost:8000/api/categories';
+  url: string = ' https://bad4b8e5.ngrok.io/api/categories';
 
   constructor(public http: HttpClient) { }
 
